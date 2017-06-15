@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 
 @SpringBootApplication
-public class ProductappWebApplication {
+public class bookwenapplication {
 
 	@Bean
     public JdbcTemplate jdbcTemplate(DataSource dataSource)
