@@ -12,13 +12,12 @@ import org.springframework.stereotype.Repository;
 
 import com.revature.model.User;
 
-//import ch.qos.logback.classic.Logger;
+
 
 @Repository
-public class UserDAO {
-	private static final Logger LOGGER = LoggerFactory.getLogger(UserDAO.class);
+public class userdao {
+	
 
-	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
 	public List<User> findAll() {
