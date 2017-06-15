@@ -20,16 +20,6 @@ SELECT * FROM user_account;
 
 use productapp_db;
 
-CREATE TABLE orders(
-o_id INT PRIMARY KEY AUTO_INCREMENT,
-title VARCHAR(100) NOT NULL,
-price INT(10) NOT NULL,
-quantity INT(10)NOT NULL,
-delivery INT(1)default 0,
-cancel INT(1)default 0,
-ordered_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-ordered_modified_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
 
 
 CREATE TABLE Book(
