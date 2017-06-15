@@ -19,13 +19,8 @@ import com.revature.model.User;
 
 public class BookController {
 	@Autowired
-	private BookDAO bookDAO;
+	private BookDAO DAO;
 	
-	
-	@GetMapping("/addbooks")
-	public String add_book(){
-	return"addbook";
-	}
 	
 	@GetMapping("/books")
 	public String book(@RequestParam("name") String bname, @RequestParam("aname") String auname,
