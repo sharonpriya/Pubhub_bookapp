@@ -12,7 +12,7 @@ import com.revature.model.Book;
 import com.revature.model.User;
 
 @Repository
-public class BookDAO {
+public class bookdao {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
